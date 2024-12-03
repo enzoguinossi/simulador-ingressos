@@ -51,4 +51,5 @@ function comprar() {
     } else {
         alert('Selecione um tipo de ingresso válido.');
     }
+    document.getElementById('qtd').value = ''; // Reseta a quantidade para 0 após a compra.
 }
